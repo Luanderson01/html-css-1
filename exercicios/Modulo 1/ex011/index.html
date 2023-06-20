@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Midias em html</title>
+</head>
+<body>
+<h1>Imagens Fléxivel</h1>
+<p>Aqui vamos trabalhar imagen flexivel!</p>
+
+<picture>
+    <source media="(max-width: 750px)" srcset="imagens/foto-p.png.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="imagem flexível">
+</picture>
+
+<h1>Vamos carregar audios</h1>
+<p>Vamos colocar alguns audios para rolar!</p>
+
+<audio preload="metadata" controls>
+<source src="midia/musica relaxante.mp3" type="audio/mpeg">
+<source src="midia/musica relaxante.ogg" type="audio/ogg">
+<p>Infelismente seu navegador nao consegue reproduzir áudio. <a href="midia/musica relaxante.mp3">Cliqie aqui para baixar o arquivo MP3</a></p>
+</audio> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

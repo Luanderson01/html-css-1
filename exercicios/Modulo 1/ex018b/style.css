@@ -1,0 +1,17 @@
+@charset "UTF-8"; 
+
+@font-face{
+    font-family:'love';src: url('fontes/love story ttf.ttf') format('truetype')    
+}
+
+body{
+    font-family: love;
+    text-align: center;
+    
+}
+h1{
+    font-family:love;
+    font-size: 3em;
+}
+
+
