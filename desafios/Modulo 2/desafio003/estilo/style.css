@@ -5,12 +5,30 @@
     padding: 0px;
 }
 
+@import
+url('https://fonts.googleapis.com/css2?family= Sriracha & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family= Passion +One & display=swap');
+
+;:root{
+   --font01: verdana, geneva, tahoma, sans-serif;
+   --font02: 'Sriracha', cursiva; 
+   --font03: 'Passion One', cursiva;
+
+
+
+
+
+}
+
  html , body{
+   font-family: var(--font01);
     min-height: 100vh;
     background-color: darkgray;
  }
 
  header{
+   font-family: var(--font03);
     background-color: black;
     color: white;
     text-align: center;
@@ -41,6 +59,7 @@ a:hover{
 
 
 section{
+   font-family: var(--font02);
    padding-top: 10vh;
    padding-bottom: 10vh;
    line-height: 2em;
