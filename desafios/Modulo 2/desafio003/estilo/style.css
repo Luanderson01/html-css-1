@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 *{
-    margin: 0px;
-    padding: 0px;
+margin: 0px;
+padding: 0px;
 }
 
 @import
@@ -21,37 +21,36 @@ url('https://fonts.googleapis.com/css2?family= Sriracha & display=swap');
 
 }
 
- html , body{
+html , body{
    font-family: var(--font01);
-    min-height: 100vh;
-    background-color: darkgray;
- }
+min-height: 100vh;
+background-color: darkgray;
+}
 
- header{
+header{
    font-family: var(--font03);
-    background-color: black;
-    color: white;
-    text-align: center;
-    
- }
- header h1{
-    padding-top: 50px;
-    font-variant: small-caps;
-    
-    
- }
+background-color: black;
+color: white;
+text-align: center;
+}
+header h1{
+padding-top: 50px;
+font-variant: small-caps;
 
- header p {
-    padding-bottom: 50px; 
- }
+
+}
+
+header p {
+padding-bottom: 50px; 
+}
 
 a{
-    color: white;
-    text-decoration: none;
-    font-weight: bolder;
+color: white;
+text-decoration: none;
+font-weight: bolder;
 }
 a:hover{
-    text-decoration: underline;
+text-decoration: underline;
 
 }
 
@@ -67,23 +66,21 @@ section{
 }
 
 
- .normal{
-    background-color: white;
-    color: black;
-  
- }
+.normal{
+background-color: white;
+color: black;
 
-  .imagem{
-    background-color: rgb(29, 28, 28);
-    color: white;
+}
 
- }
- .imagem > p{
-    background-color: rgba(0, 0, 0, 0.479);
-    width: 400px;
- }
+.imagem{
+background-color: rgb(29, 28, 28);
+color: white;
 
-
+}
+.imagem > p{
+background-color: rgba(0, 0, 0, 0.479);
+width: 400px;
+}
 
 
 
@@ -112,11 +109,13 @@ section{
 
 
 
- footer{
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    
- }
+
+
+footer{
+background-color: black;
+color: white;
+text-align: center;
+padding: 10px;
+
+}
 
