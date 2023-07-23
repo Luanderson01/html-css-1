@@ -5,15 +5,14 @@ margin: 0px;
 padding: 0px;
 }
 
-@import
-url('https://fonts.googleapis.com/css2?family= Sriracha & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Lumanosimo & family= Passion+One & display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family= Passion +One & display=swap');
 
-;:root{
+
+:root{
    --font01: verdana, geneva, tahoma, sans-serif;
-   --font02: 'Sriracha', cursiva; 
-   --font03: 'Passion One', cursiva;
+   --font02: ; 
+   --font03: ;
 
 
 
