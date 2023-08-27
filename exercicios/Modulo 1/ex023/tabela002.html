@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            background-color: rgb(187, 187, 187);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.137);
+        }
+
+td, tr, th{
+border: 1px solid black;
+width: 150px;
+height: 20px;
+padding: 10px;
+
+
+
+}
+
+tbody > tr:nth-child(2n){
+    background-color: white;
+
+}
+
+.num {
+    text-align: right;
+}
+th{
+    background-color: green;
+    color: white;
+}
+
+h1{
+    text-decoration:underline;
+
+}
+caption{
+    font-size: 2em;
+    padding: 10px;
+    background-image: linear-gradient(to top, green, gray
+    );
+    color: white;
+    border-radius: 5px 5px 0px 0px ;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.363);
+
+}
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>
+        Tabelas Grandes!
+    </h1>
+    
+    <table>
+        <caption>Dados de Desempenho </caption>
+        <thead>
+            <th>Estado</th>
+            <th>Lucro</th>
+            <th>Dispesa</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num
+                ">10.000,00$</td>
+                <td class="num
+                ">2.300,00$</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num
+                ">23.400,00$</td>
+                <td class="num
+                ">7.320,00$</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num
+                ">7.200,00$</td>
+                <td class="num
+                ">1.099,00$</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total:</th>
+                <th class="num
+                ">40.600,00$</th>
+                <th class="num
+                "><strog>10.719,00$</strog></th>
+            </tr>
+        </tfoot>
+    </table>
+
+    
+</body>
+</html>
