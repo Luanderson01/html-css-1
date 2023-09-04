@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: rgb(226, 226, 226);
+}
+
+table{
+    border-collapse: collapse;
+    
+}
+
+caption{
+    text-align: center;
+    background-color: gray;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.cabeca{
+    background-color: yellow;
+}
+
+
+th, tr, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+
+.m{
+    background-color: palevioletred;
+    color: aliceblue;
+}
+.h{
+    background-color: blue;
+    color: aliceblue;
+}
