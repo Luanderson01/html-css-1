@@ -38,10 +38,17 @@
         padding: 30px 10px ;
         padding-bottom: 10px;
         width: 300px;
-        height: 120px;
+        height: 150px;
         border-radius: 20px;
         margin: auto;
         box-shadow: 5px 5px 10px rgba(0, 0, 255, 0.384);
+        
+
+        position: absolute;
+        left: 50% ;
+        top: 50%;
+
+        transform: translate(-50%,-50%); 
     }
 
 
@@ -68,6 +75,29 @@
         border-color: blue;
         transition: .5s;
     }
+    p{
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    input{
+        border-radius: 10px;
+        padding: 5px;
+        box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+    }
+    hr.detalhe{
+        display: block;
+        margin: auto;
+        width: 100px;
+        
+    }
+
+    hr.detalhe:hover{
+        background-color: blue;
+        box-shadow: 3px 3px 5px black;
+    }
+
+
 
 </style>
 <body>
@@ -75,9 +105,11 @@
 
     <form  action="cadastro.php" method="post" autocomplete="on">
 
-        <p><label for="inome">Nome:</label> <input type="text" name="nome:" id="inome"></p>
+        <p><label for="inome"></label> <input type="text" name="nome:" id="inome" placeholder="Nome, numero ou email " ></p>
 
-        <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome" ></p>
+        <p><label for="isobrenome"></label> <input type="text" name="sobrenome" id="isobrenome" placeholder="Senha" ></p>
+
+        <hr class="detalhe">
 
         <p id="enviar"> <input type="submit" value="Enviar" class="enviar"></p>
 
