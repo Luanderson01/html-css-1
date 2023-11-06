@@ -48,7 +48,7 @@
         left: 50% ;
         top: 50%;
 
-        transform: translate(-50%,-50%); 
+        transform: translate(-50%,-50%);  
     }
 
 
@@ -105,13 +105,13 @@
 
     <form  action="cadastro.php" method="post" autocomplete="on">
 
-        <p><label for="inome"></label> <input type="text" name="nome:" id="inome" placeholder="Nome, numero ou email " ></p>
+        <p><label for="inome"></label> <input type="text" name="nome:" id="inome" placeholder="Nome, numero ou email " required autocomplete="name" ></p>
 
-        <p><label for="isobrenome"></label> <input type="text" name="sobrenome" id="isobrenome" placeholder="Senha" ></p>
+        <p><label for="isobrenome"></label> <input type="password" name="senha" id="isenha" placeholder="Senha" required minlength="5" maxlength="20"  autocomplete="current-password"> </p>
 
         <hr class="detalhe">
 
-        <p id="enviar"> <input type="submit" value="Enviar" class="enviar"></p>
+        <p id="enviar"> <input type="submit" value="Enviar" class="enviar" ></p>
 
     </form>  
 
