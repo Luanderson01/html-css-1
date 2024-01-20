@@ -1,2 +1,18 @@
 @charset "UTF-8";
 
+img#pc{
+    display: none;
+}
+img#phone{
+    display: block;
+    margin: auto;
+}
+img#print{
+    display: none;
+}
+img#tv{
+    display: none;
+}
+img#tablet{
+    display: none;
+}
