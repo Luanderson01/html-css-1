@@ -16,11 +16,26 @@ header{
     margin: auto;
     margin-bottom: 20px;
     box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.26);
+}
+
+span#menu{
+    display: block;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#menu:hover{
+    background-color: white;
+    color: black;
+    display: block;
     
 }
 
 menu{
-    display: block;
+    display:none;
 }
 
 
@@ -65,5 +80,4 @@ main{
     margin: auto;
     box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.26);
     width: 92vw;
-    
 }
